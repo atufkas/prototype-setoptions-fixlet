@@ -16,7 +16,7 @@ with your application: Instead of refactoring the old code, this one may help ou
 
 ### Usage
 
-Just load the js as a "fill-in" additionally to loading prototype.js, for example:
+Just load the js as a "drop-in" additionally to loading prototype.js, for example:
 
     <script src="/yourjsfolder/prototype-1.7.1.js" type="text/javascript" />
     <script src="/yourjsfolder/prototype-setoptions-fixlet.js" type="text/javascript" />
