@@ -7,9 +7,9 @@ Re-adds ```Ajax.Base.setOptions()``` method to prototype base objects of librari
 ### Typical use case
 
 There may exist legacy JS code in the wild that wants to make use of prototype library versions >= 1.7.0 
-(e.g. in combination with scriptaculous >= 1.9.0 for IE compatibility reasons) but fails to behave 
-correctly because custom code extends prototype classes and relies on the old ```setOptions()``` method 
-originally provided ```Ajax.Base.prototype```. 
+(e.g. in combination with scriptaculous >= 1.9.0 for IE compatibility reasons in conjunction with scriptaculous' dragdrop.js) 
+but fails to behave correctly because custom code extends prototype classes and relies on the old ```setOptions()``` method 
+originally provided by ```Ajax.Base.prototype```. 
 
 So, if you recently upgraded from prototype 1.5.x or scriptaculous 1.7.x to a later version and experience problems 
 with your application: Instead of refactoring the old code, this one may help out as a quick fix.
