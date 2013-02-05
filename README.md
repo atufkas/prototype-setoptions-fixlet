@@ -12,13 +12,11 @@ correctly because custom code extends prototype classes and relies on the old ``
 originally provided ```Ajax.Base.prototype```. 
 
 So, if you recently upgraded from prototype 1.5.x or scriptaculous 1.7.x to a later version and experience problems 
-with your application, this one may help out as a quick fix.
-
-Instead of refactoring the old code, this fixlet may act as a quick fix.
+with your application: Instead of refactoring the old code, this one may help out as a quick fix.
 
 ### Usage
 
-This can be used in a "fill-in" style, for example:
+Just load the js as a "fill-in" additionally to loading prototype.js, for example:
 
     <script src="/yourjsfolder/prototype-1.7.1.js" type="text/javascript" />
     <script src="/yourjsfolder/prototype-setoptions-fixlet.js" type="text/javascript" />
@@ -27,7 +25,7 @@ This can be used in a "fill-in" style, for example:
 
 Matthias Lienau: <matthias@mlienau.de>
 
-Feel free to contact me on any questions!
+Feel free to contact me on any question!
 
 ### License: 
 
